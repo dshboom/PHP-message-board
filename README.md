@@ -8,5 +8,5 @@ UI设计参考了[codepen上的一个项目](https://codepen.io/Javascripttumblr
 每日一言用的 https://v1.hitokoto.cn/ 的API
 PC端观感还不错，移动端也就勉强能用的水平,,ԾㅂԾ,,
 网站截图如下：
-
+[](./show/2024-02-05.png)
 总之就是很简陋啦，以后慢慢完善。
