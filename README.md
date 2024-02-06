@@ -3,9 +3,10 @@
 ### V1.2 更新介绍 UI美化 输入验证
 
 - 添加输入为空验证
-
+![网站截图](https://github.com/dshboom/PHP-message-board/blob/main/show/2024-02-06-1.png)
 - 输入框、按钮等页面元素美化
 - 留言显示美化
+![网站截图](https://github.com/dshboom/PHP-message-board/blob/main/show/2024-02-06-2.png)
 
 #### V1.1版本介绍
 最初简略版本
