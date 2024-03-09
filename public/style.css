@@ -1,0 +1,263 @@
+.question {
+    display: none;
+    padding: 1px 2px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    -webkit-animation-fill-mode: none !important;
+    animation-fill-mode: none !important;
+    margin-top: 2px;
+}
+
+.input {
+    text-align: left;
+    margin-bottom: 30px;
+    box-shadow: 0px 1px 3px 0px rgba(179, 205, 252, 1);
+    cursor: pointer;
+    margin: 28px 0 28px;
+    padding: 12px 12px;
+    outline: none;
+    border: none;
+}
+
+.parent {
+    max-width: 700px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.title {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 44px;
+    width: 100%;
+    margin: 0 -10px;
+    padding: 0;
+    text-align: center;
+    color: #000;
+}
+
+.head {
+    background-color: rgba(227, 235, 250, 1);
+    top: 0;
+    -webkit-box-shadow: 0 1px 6px #ccc;
+    box-shadow: 0 1px 6px #ccc;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+}
+
+.foot {
+    width: 100%;               
+    position: fixed;           
+    bottom: 0;                 
+    background-color: #f8f9fa; 
+    text-align: center;        
+    padding: 1px 0;           
+    border-top: 1px solid #dee2e6;
+}
+
+.foot p {
+    color: #212529;            
+    font-size: 10px;
+}
+
+
+body {
+    margin-top: 0;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+/* 修改按钮的样式 */
+.btn {
+    /* 设置为块级元素 */
+    display: block;
+    /* 水平居中 */
+    margin: 0 auto;
+    background-color: #007bff;
+    color: #fff;
+    /* 添加一些内边距 */
+    padding: 10px 120px;
+    /* 添加圆角 */
+    border-radius: 30px;
+    /* 设置光标样式为指针，使其在鼠标悬停时显示手型 */
+    cursor: pointer;
+    border: none;
+    /* 添加过渡效果 */
+    transition: background-color 0.3s ease;
+    /* 设置position为relative，以便后面添加伪元素 */
+    position: relative;
+}
+
+/* 悬停时修改按钮的样式 */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+div[id="login-box"] {
+    position: fixed;
+    width: 100%;
+    max-width: 600px;
+    bottom: 1.875rem;
+    text-align: center;
+}
+
+input[type="submit"] {
+    background: linear-gradient(to right, #3290f5 0, #52b4eb 100%);
+    color: white;
+    /*字体颜色*/
+    border-radius: 20px;
+    /*圆角半径*/
+    border: none;
+    box-shadow: 1px 1px 1px rgba(117, 116, 116, 0.1);
+    /*阴影美化*/
+    width: 16%;
+    height: 30px;
+    float: right;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+textarea[id="username"] {
+    height: 23px;
+    margin-top: 2px;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    outline: none;
+    border-radius: 5px;
+    width: 95%;
+    height: 90px;
+    overflow: auto;
+    font-family: sans-serif;
+    margin-top: 5px;
+    color: #333;
+    border: none;
+    font-size: 1rem;
+}
+
+.dashed-border
+{
+    display: flex;
+    border: 2px dotted #acacac;  /* 设置虚线边框，颜色为黑色 */
+    padding: 7px;  /* 添加内边距，使得内容和边框之间有一点距离 */
+    border-radius: 4px; /* 设置边框圆角 */
+    flex-direction: column; /* 让元素在容器中垂直排列 */
+}
+
+.dashed-border-name
+{
+    padding-bottom: 3px;
+}
+
+.dashed-border-say
+{
+    border-top: 2px dashed #a6a6a6; /* 在两个元素间添加虚线分隔 */
+    padding-bottom: 3px;
+}
+
+a[id="signup-btn"] {
+    margin-top: 20px;
+    color: #fff;
+    background: linear-gradient(to right, #3290f5 0, #52b4eb 100%);
+    border: none;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 2.5rem;
+    display: inline-block;
+    min-width: 210px;
+    box-sizing: border-box;
+    padding: 0;
+    width: 8.125rem;
+    font-size: 1rem;
+    opacity: .98;
+}
+
+a[id="login-btn"] {
+    margin-top: -3px;
+    color: #fff;
+    background: linear-gradient(to right, #3290f5 0, #52b4eb 100%);
+    border: none;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 2.5rem;
+    display: inline-block;
+    min-width: 210px;
+    box-sizing: border-box;
+    padding: 0;
+    width: 8.125rem;
+    font-size: 1rem;
+    opacity: .98;
+}
+
+a[id="login-text"] {
+    color: #fff;
+    background: linear-gradient(to right, #3290f5 0, #52b4eb 100%);
+    border: none;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 2.5rem;
+    display: inline-block;
+    min-width: 4.375rem;
+    box-sizing: border-box;
+    padding: 0;
+    width: 8.125rem;
+    font-size: 1rem;
+    opacity: .98;
+    text-decoration: none;
+
+}
+
+h4 {
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #333;
+    color: #1976d9
+}
+
+h1 {
+    margin: 5px auto;
+}
+
+div.connect {
+    box-shadow: 0px 2px 5px 0px rgba(179, 205, 252, 1);
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+    max-width: 840px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    bottom: 60px;
+}
+
+#box {
+    padding: 15px 10px 0;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    margin-top: 34px;
+}
+
+.headBtn {
+    position: absolute;
+    right: 12%;
+    border: none; /* 移除边框 */
+    cursor: pointer; /* 设置鼠标样式为手型 */
+    background-color: rgba(227, 235, 250, 1);
+    padding: 12px 25px; /* 设置内边距 */
+    font-size: 16px; /* 设置字体大小 */
+}
+.headBtn:hover {
+    background-color: #9cccff; /* 设置鼠标悬停时的背景颜色 */
+  }
