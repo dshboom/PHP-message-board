@@ -1,5 +1,5 @@
 # PHP-message-board
-### PHP实现的简单的留言板
+### PHP+MySQL实现简单的留言板项目 持续更新
 ### V1.3 更新介绍 UI美化 代码重构 性能优化
 
 - 页面元素美化 添加header
