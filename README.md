@@ -1,5 +1,10 @@
 # PHP-message-board
 ### PHP实现的简单的留言板
+### V1.3 更新介绍 UI美化 代码重构 性能优化
+
+- 页面元素美化 添加header
+![网站截图](https://github.com/dshboom/PHP-message-board/blob/main/show/2024-03-09-1.png)
+
 ### V1.2 更新介绍 UI美化 输入验证
 
 - 添加输入为空验证
